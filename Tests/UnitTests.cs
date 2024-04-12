@@ -68,7 +68,7 @@ namespace GithubActionsLab
         {
             Assert.Throws<FormatException>(() => Program.Multiply("1", "a"));
             Assert.Throws<FormatException>(() => Program.Multiply("a", "1"));
-            Assert.Throws<FormatException>(() => Program.Mulitply("a", "a"));
+            Assert.Throws<FormatException>(() => Program.Multiply("a", "a"));
         }
 
         [Test]
